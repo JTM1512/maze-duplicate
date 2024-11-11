@@ -36,7 +36,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.btnSave = new System.Windows.Forms.Button();
-            this.txtInfo = new System.Windows.Forms.RichTextBox();
             this.btnHelp = new System.Windows.Forms.Button();
             this.btnLoad = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
@@ -116,14 +115,6 @@
             this.btnSave.UseVisualStyleBackColor = true;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
-            // txtInfo
-            // 
-            this.txtInfo.Location = new System.Drawing.Point(544, 304);
-            this.txtInfo.Name = "txtInfo";
-            this.txtInfo.Size = new System.Drawing.Size(220, 96);
-            this.txtInfo.TabIndex = 7;
-            this.txtInfo.Text = "";
-            // 
             // btnHelp
             // 
             this.btnHelp.Location = new System.Drawing.Point(627, 177);
@@ -174,7 +165,6 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.btnLoad);
             this.Controls.Add(this.btnHelp);
-            this.Controls.Add(this.txtInfo);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -202,7 +192,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnSave;
-        private System.Windows.Forms.RichTextBox txtInfo;
         private System.Windows.Forms.Button btnHelp;
         private System.Windows.Forms.Button btnLoad;
         private System.Windows.Forms.Label label3;

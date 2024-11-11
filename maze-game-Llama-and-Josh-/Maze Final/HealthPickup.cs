@@ -15,10 +15,11 @@ namespace Maze_Final
 
         public override void ApplyEffect(CharacterTile character)
         {
-            if ((character._HP += 10) <= character._MaxHP)
-            { character._HP += 10; }
-            else
-            { character._HP = character._MaxHP; }
+            character._HP += 10;
+            if (character._HP > character._MaxHP)
+            {
+                character._HP = character._MaxHP;
+            }
         }
 
         public override char Display

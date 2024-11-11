@@ -42,3 +42,14 @@ C:\Users\User\Source\Repos\maze-game-Llama-and-Josh-\Maze Final\obj\Debug\Maze F
 C:\Users\User\Source\Repos\maze-game-Llama-and-Josh-\Maze Final\obj\Debug\Maze Final.csproj.CoreCompileInputs.cache
 C:\Users\User\Source\Repos\maze-game-Llama-and-Josh-\Maze Final\obj\Debug\Maze Final.exe
 C:\Users\User\Source\Repos\maze-game-Llama-and-Josh-\Maze Final\obj\Debug\Maze Final.pdb
+C:\Users\User\Source\Repos\maze-duplicate-\maze-game-Llama-and-Josh-\Maze Final\bin\Debug\Maze Final.exe.config
+C:\Users\User\Source\Repos\maze-duplicate-\maze-game-Llama-and-Josh-\Maze Final\bin\Debug\Maze Final.exe
+C:\Users\User\Source\Repos\maze-duplicate-\maze-game-Llama-and-Josh-\Maze Final\bin\Debug\Maze Final.pdb
+C:\Users\User\Source\Repos\maze-duplicate-\maze-game-Llama-and-Josh-\Maze Final\obj\Debug\Maze Final.csproj.AssemblyReference.cache
+C:\Users\User\Source\Repos\maze-duplicate-\maze-game-Llama-and-Josh-\Maze Final\obj\Debug\Maze_Final.Form1.resources
+C:\Users\User\Source\Repos\maze-duplicate-\maze-game-Llama-and-Josh-\Maze Final\obj\Debug\Maze_Final.Form3.resources
+C:\Users\User\Source\Repos\maze-duplicate-\maze-game-Llama-and-Josh-\Maze Final\obj\Debug\Maze_Final.Properties.Resources.resources
+C:\Users\User\Source\Repos\maze-duplicate-\maze-game-Llama-and-Josh-\Maze Final\obj\Debug\Maze Final.csproj.GenerateResource.cache
+C:\Users\User\Source\Repos\maze-duplicate-\maze-game-Llama-and-Josh-\Maze Final\obj\Debug\Maze Final.csproj.CoreCompileInputs.cache
+C:\Users\User\Source\Repos\maze-duplicate-\maze-game-Llama-and-Josh-\Maze Final\obj\Debug\Maze Final.exe
+C:\Users\User\Source\Repos\maze-duplicate-\maze-game-Llama-and-Josh-\Maze Final\obj\Debug\Maze Final.pdb

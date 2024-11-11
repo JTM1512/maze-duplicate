@@ -58,7 +58,6 @@ namespace Maze_Final
             {
                 _hero = hero;
                 array[_hero.X, _hero.Y] = _hero;
-
             }
 
             Position exitPos;

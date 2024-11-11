@@ -26,6 +26,7 @@ namespace Maze_Final
         public int numEnemies = 1;
         public int numPickups = 1;
         private Position prevExit;
+        private Position prevHero;
         public void NextLevel()
         {
             currentLevelNumber++;
@@ -38,12 +39,13 @@ namespace Maze_Final
             int width = random1.Next(MIN_SIZE, MAX_SIZE);
             int height = random1.Next(MIN_SIZE, MAX_SIZE);
 
-            while (width<prevExit.X && height < prevExit.Y)
+            do
             {
                 width = random1.Next(MIN_SIZE, MAX_SIZE);
                 height = random1.Next(MIN_SIZE, MAX_SIZE);
             }
-            
+            while (width < prevExit.X || height < prevExit.Y || width < prevHero.X || height < prevHero.Y);
+
 
             currentLevel = new Level(width, height, numEnemies, numPickups, currentHero);
         }
@@ -127,6 +129,9 @@ namespace Maze_Final
             {
                 ExitTile exit = currentLevel.Exit;
                 prevExit = new Position(exit.X, exit.Y);
+
+                HeroTile previousHero = currentLevel.Hero;
+                prevHero = new Position(previousHero.X, previousHero.Y);
                 if (exit.isLocked() == false)
                 {
                     //if the level count has hit the max level
@@ -207,7 +212,7 @@ namespace Maze_Final
                         for (int j = 0; j < 4; j++)
                         {
                             targetTile = enemy[i].exposedVision[j];
-                            if (!((targetTile is WallTile) || (targetTile is HealthPickupTile) || (targetTile is EnemyTile)))
+                            if (!((targetTile is WallTile) || (targetTile is PickupTile) || (targetTile is EnemyTile) || (targetTile is ExitTile)))
                             {
                                 validMove = true;
                                 break;
