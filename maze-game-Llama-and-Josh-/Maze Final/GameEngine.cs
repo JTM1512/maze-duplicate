@@ -277,18 +277,17 @@ namespace Maze_Final
             EnemyTile[] enemies = currentLevel.enemy;
             for (int i = 0; i < enemies.Length; i++)
             {
-                GruntTile grunt = (GruntTile)enemies[i];
                 if (enemies[i].IsDead == false)
                 {
-                    var targets = grunt.GetTargets();
+                    var targets = enemies[i].GetTargets();
 
                     foreach (var target in targets)
                     {
                         if (target == null) continue;
 
-                        if (target is HeroTile hero)
+                        if (target is CharacterTile character)
                         {
-                            grunt.Attack(hero);
+                            enemies[i].Attack(character);
                         }
                     }
                 }
